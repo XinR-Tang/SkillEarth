@@ -5,7 +5,11 @@
 </p>
 
 <p>
-  <img src="asserts/title_gradient.svg" alt="SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution" width="100%">
+  <img src="asserts/title_gradient.svg" alt="Teaching General-Purpose Agents to Act on Earth via Skill Evolution" width="100%">
+</p>
+
+<p>
+  <img src="asserts/dashed_divider.svg" alt="" width="84%">
 </p>
 
 <p>
