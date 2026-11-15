@@ -9,10 +9,6 @@
 </p>
 
 <p>
-  <img src="asserts/dashed_divider.svg" alt="" width="84%">
-</p>
-
-<p>
   <img src="asserts/tagline_gradient.svg" alt="A Self-evolving skill framework for Tool-Driven Geospatial Intelligence" width="76%">
 </p>
 
