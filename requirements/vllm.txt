@@ -1,0 +1,2 @@
+# Install after selecting a CUDA-compatible PyTorch/CUDA stack for the host.
+vllm

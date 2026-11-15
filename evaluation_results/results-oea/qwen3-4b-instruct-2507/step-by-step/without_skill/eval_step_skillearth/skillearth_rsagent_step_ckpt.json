@@ -1,0 +1,26 @@
+{
+    "task_name": "rsagent",
+    "model_name": "qwen3-4b-instruct-2507",
+    "metrics": {
+        "inst_acc": 98.4733,
+        "tool_acc": 87.7014,
+        "arg_acc1": 84.3257,
+        "arg_acc2": 33.6726,
+        "answer_acc": 92.5468,
+        "answer_acc_all_non_gen": 89.7451,
+        "count_non_gen_samples": 993,
+        "count_gold_non_gen_samples": 1024,
+        "count_gen_samples": 140
+    },
+    "error_breakdown": {
+        "no_valid_action": 90,
+        "action_is_not_valid_dict": 0,
+        "missing_name_key": 0,
+        "name_not_in_tools": 2,
+        "incorrect_tool_called": 635,
+        "missing_arguments_key": 0,
+        "required_argument_missing": 199,
+        "arguments_is_not_valid_dict": 0,
+        "argument_values_not_matching": 2986
+    }
+}

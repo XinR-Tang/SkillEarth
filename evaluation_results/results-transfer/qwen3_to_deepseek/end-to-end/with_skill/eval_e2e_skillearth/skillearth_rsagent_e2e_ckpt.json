@@ -1,0 +1,154 @@
+{
+    "task_name": "rsagent",
+    "model_name": "deepseek-v4-flash",
+    "metrics": {
+        "perception_f1": 40.8381727687038,
+        "operation_f1": 37.59651141403305,
+        "logic_f1": 31.912663112243127,
+        "gis_f1": 81.78784835004826,
+        "total_tool_calls_gt": 5895,
+        "total_actions_parsed": 6867,
+        "total_tool_calls_pred": 6866,
+        "tool_call_error": 1769,
+        "answer_acc": 60.2246,
+        "answer_acc_w_gen": 62.069,
+        "all_tools_called_any_order": 0.5774165953806673,
+        "all_tools_called_same_order": 0.5731394354148845,
+        "all_tools_called_unique": 0.6270316509837468,
+        "avg_steps_taken": 5.88622754491018,
+        "total_gen_samples": 145
+    },
+    "error_breakdown": {
+        "ans_not_reached": 105,
+        "name_not_in_tools": 0,
+        "no_valid_action_taken": 0,
+        "no_action_found": 2,
+        "action_found_but_wrong_syntax": 12,
+        "answer_reached_without_tool_calls": 5,
+        "Multiple_tool_calls_in_single_step": 0
+    },
+    "total_gt_calls_per_tool": {
+        "Calculator": 570,
+        "OCR": 10,
+        "DrawBox": 71,
+        "AddText": 30,
+        "GoogleSearch": 34,
+        "Plot": 22,
+        "Solver": 191,
+        "TextToBbox": 366,
+        "ImageDescription": 21,
+        "RegionAttributeDescription": 361,
+        "CountGivenObject": 158,
+        "ChangeDetection": 98,
+        "SegmentObjectPixels": 34,
+        "ObjectDetection": 21,
+        "GetAreaBoundary": 676,
+        "AddPoisLayer": 1080,
+        "ComputeDistance": 497,
+        "DisplayOnMap": 36,
+        "AddIndexLayer": 246,
+        "ComputeIndexChange": 123,
+        "ShowIndexLayer": 29,
+        "GetBboxFromGeotiff": 31,
+        "DisplayOnGeotiff": 21,
+        "Terminate": 1169
+    },
+    "total_pred_calls_per_tool": {
+        "Calculator": {
+            "called": 225,
+            "success": 217
+        },
+        "OCR": {
+            "called": 36,
+            "success": 34
+        },
+        "DrawBox": {
+            "called": 103,
+            "success": 103
+        },
+        "AddText": {
+            "called": 24,
+            "success": 12
+        },
+        "GoogleSearch": {
+            "called": 254,
+            "success": 254
+        },
+        "Plot": {
+            "called": 125,
+            "success": 18
+        },
+        "Solver": {
+            "called": 64,
+            "success": 26
+        },
+        "TextToBbox": {
+            "called": 846,
+            "success": 772
+        },
+        "ImageDescription": {
+            "called": 313,
+            "success": 301
+        },
+        "RegionAttributeDescription": {
+            "called": 279,
+            "success": 271
+        },
+        "CountGivenObject": {
+            "called": 340,
+            "success": 337
+        },
+        "ChangeDetection": {
+            "called": 243,
+            "success": 167
+        },
+        "SegmentObjectPixels": {
+            "called": 149,
+            "success": 129
+        },
+        "ObjectDetection": {
+            "called": 207,
+            "success": 0
+        },
+        "GetAreaBoundary": {
+            "called": 706,
+            "success": 700
+        },
+        "AddPoisLayer": {
+            "called": 1999,
+            "success": 891
+        },
+        "ComputeDistance": {
+            "called": 414,
+            "success": 414
+        },
+        "DisplayOnMap": {
+            "called": 33,
+            "success": 25
+        },
+        "AddIndexLayer": {
+            "called": 246,
+            "success": 246
+        },
+        "ComputeIndexChange": {
+            "called": 127,
+            "success": 127
+        },
+        "ShowIndexLayer": {
+            "called": 72,
+            "success": 1
+        },
+        "GetBboxFromGeotiff": {
+            "called": 39,
+            "success": 31
+        },
+        "DisplayOnGeotiff": {
+            "called": 22,
+            "success": 21
+        },
+        "Terminate": {
+            "called": 1064,
+            "success": 0
+        }
+    }
+}

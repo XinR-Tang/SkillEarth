@@ -1,0 +1,43 @@
+2026-11-13 17:49:20 | INFO | stdout | usage: inference_oea.py [-h] [--base_url BASE_URL] [--api_key API_KEY]
+2026-11-13 17:49:20 | INFO | stdout |                         [--model MODEL] --skillbank SKILLBANK
+2026-11-13 17:49:20 | INFO | stdout |                         [--use_skill | --no-use_skill]
+2026-11-13 17:49:20 | INFO | stdout |                         [--skill_top_k SKILL_TOP_K]
+2026-11-13 17:49:20 | INFO | stdout |                         [--skill_threshold SKILL_THRESHOLD]
+2026-11-13 17:49:20 | INFO | stdout |                         [--max_skill_chars MAX_SKILL_CHARS]
+2026-11-13 17:49:20 | INFO | stdout |                         [--question QUESTION] [--image_path IMAGE_PATH]
+2026-11-13 17:49:20 | INFO | stdout |                         [--max_rounds MAX_ROUNDS] [--temperature TEMPERATURE]
+2026-11-13 17:49:20 | INFO | stdout |                         [--top_p TOP_P] [--max_tokens MAX_TOKENS]
+2026-11-13 17:49:20 | INFO | stdout |                         [--timeout TIMEOUT] [--retries RETRIES]
+2026-11-13 17:49:20 | INFO | stdout |                         [--max_observation_chars MAX_OBSERVATION_CHARS]
+2026-11-13 17:49:20 | INFO | stdout |                         [--output_json OUTPUT_JSON]
+2026-11-13 17:49:20 | INFO | stdout |                         [--log_level {DEBUG,INFO,WARNING,ERROR}]
+2026-11-13 17:49:20 | INFO | stdout | 
+2026-11-13 17:49:20 | INFO | stdout | Interactive OpenEarthAgent: official evaluator-style SkillEarth retrieval
+2026-11-13 17:49:20 | INFO | stdout | 
+2026-11-13 17:49:20 | INFO | stdout | options:
+2026-11-13 17:49:20 | INFO | stdout |   -h, --help            show this help message and exit
+2026-11-13 17:49:20 | INFO | stdout |   --base_url BASE_URL
+2026-11-13 17:49:20 | INFO | stdout |   --api_key API_KEY
+2026-11-13 17:49:20 | INFO | stdout |   --model MODEL
+2026-11-13 17:49:20 | INFO | stdout |   --skillbank SKILLBANK
+2026-11-13 17:49:20 | INFO | stdout |                         SkillBank root containing subfolders with SKILL.md
+2026-11-13 17:49:20 | INFO | stdout |   --use_skill, --no-use_skill
+2026-11-13 17:49:20 | INFO | stdout |                         Enable/disable SkillBank retrieval (default: True)
+2026-11-13 17:49:20 | INFO | stdout |   --skill_top_k SKILL_TOP_K
+2026-11-13 17:49:20 | INFO | stdout |                         Number of retrieved skills; official implementation
+2026-11-13 17:49:20 | INFO | stdout |                         uses 1
+2026-11-13 17:49:20 | INFO | stdout |   --skill_threshold SKILL_THRESHOLD
+2026-11-13 17:49:20 | INFO | stdout |                         Min cosine score.
+2026-11-13 17:49:20 | INFO | stdout |   --max_skill_chars MAX_SKILL_CHARS
+2026-11-13 17:49:20 | INFO | stdout |   --question QUESTION
+2026-11-13 17:49:20 | INFO | stdout |   --image_path IMAGE_PATH
+2026-11-13 17:49:20 | INFO | stdout |   --max_rounds MAX_ROUNDS
+2026-11-13 17:49:20 | INFO | stdout |   --temperature TEMPERATURE
+2026-11-13 17:49:20 | INFO | stdout |   --top_p TOP_P         When omitted, use server default (as in uploaded
+2026-11-13 17:49:20 | INFO | stdout |                         evaluator)
+2026-11-13 17:49:20 | INFO | stdout |   --max_tokens MAX_TOKENS
+2026-11-13 17:49:20 | INFO | stdout |   --timeout TIMEOUT
+2026-11-13 17:49:20 | INFO | stdout |   --retries RETRIES
+2026-11-13 17:49:20 | INFO | stdout |   --max_observation_chars MAX_OBSERVATION_CHARS
+2026-11-13 17:49:20 | INFO | stdout |   --output_json OUTPUT_JSON
+2026-11-13 17:49:20 | INFO | stdout |   --log_level {DEBUG,INFO,WARNING,ERROR}

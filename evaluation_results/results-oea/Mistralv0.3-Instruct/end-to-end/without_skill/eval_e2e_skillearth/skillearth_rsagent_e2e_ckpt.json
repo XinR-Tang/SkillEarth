@@ -1,0 +1,154 @@
+{
+    "task_name": "rsagent",
+    "model_name": "Mistralv0.3-Instruct",
+    "metrics": {
+        "perception_f1": 17.86101595097211,
+        "operation_f1": 14.243002670773494,
+        "logic_f1": 7.117305338828338,
+        "gis_f1": 29.158500053850954,
+        "total_tool_calls_gt": 5895,
+        "total_actions_parsed": 5971,
+        "total_tool_calls_pred": 5462,
+        "tool_call_error": 3619,
+        "answer_acc": 0.2539,
+        "answer_acc_w_gen": 6.2069,
+        "all_tools_called_any_order": 0.06073567151411463,
+        "all_tools_called_same_order": 0.05645851154833191,
+        "all_tools_called_unique": 0.07613344739093242,
+        "avg_steps_taken": 14.30453378956373,
+        "total_gen_samples": 145
+    },
+    "error_breakdown": {
+        "ans_not_reached": 1101,
+        "name_not_in_tools": 144,
+        "no_valid_action_taken": 0,
+        "no_action_found": 1654,
+        "action_found_but_wrong_syntax": 9097,
+        "answer_reached_without_tool_calls": 0,
+        "Multiple_tool_calls_in_single_step": 0
+    },
+    "total_gt_calls_per_tool": {
+        "Calculator": 570,
+        "OCR": 10,
+        "DrawBox": 71,
+        "AddText": 30,
+        "GoogleSearch": 34,
+        "Plot": 22,
+        "Solver": 191,
+        "TextToBbox": 366,
+        "ImageDescription": 21,
+        "RegionAttributeDescription": 361,
+        "CountGivenObject": 158,
+        "ChangeDetection": 98,
+        "SegmentObjectPixels": 34,
+        "ObjectDetection": 21,
+        "GetAreaBoundary": 676,
+        "AddPoisLayer": 1080,
+        "ComputeDistance": 497,
+        "DisplayOnMap": 36,
+        "AddIndexLayer": 246,
+        "ComputeIndexChange": 123,
+        "ShowIndexLayer": 29,
+        "GetBboxFromGeotiff": 31,
+        "DisplayOnGeotiff": 21,
+        "Terminate": 1169
+    },
+    "total_pred_calls_per_tool": {
+        "Calculator": {
+            "called": 39,
+            "success": 24
+        },
+        "OCR": {
+            "called": 9,
+            "success": 5
+        },
+        "DrawBox": {
+            "called": 283,
+            "success": 114
+        },
+        "AddText": {
+            "called": 151,
+            "success": 100
+        },
+        "GoogleSearch": {
+            "called": 105,
+            "success": 63
+        },
+        "Plot": {
+            "called": 19,
+            "success": 2
+        },
+        "Solver": {
+            "called": 2,
+            "success": 0
+        },
+        "TextToBbox": {
+            "called": 735,
+            "success": 583
+        },
+        "ImageDescription": {
+            "called": 101,
+            "success": 0
+        },
+        "RegionAttributeDescription": {
+            "called": 192,
+            "success": 8
+        },
+        "CountGivenObject": {
+            "called": 495,
+            "success": 7
+        },
+        "ChangeDetection": {
+            "called": 125,
+            "success": 27
+        },
+        "SegmentObjectPixels": {
+            "called": 292,
+            "success": 16
+        },
+        "ObjectDetection": {
+            "called": 1181,
+            "success": 0
+        },
+        "GetAreaBoundary": {
+            "called": 1108,
+            "success": 826
+        },
+        "AddPoisLayer": {
+            "called": 179,
+            "success": 18
+        },
+        "ComputeDistance": {
+            "called": 27,
+            "success": 5
+        },
+        "DisplayOnMap": {
+            "called": 60,
+            "success": 4
+        },
+        "AddIndexLayer": {
+            "called": 153,
+            "success": 36
+        },
+        "ComputeIndexChange": {
+            "called": 34,
+            "success": 4
+        },
+        "ShowIndexLayer": {
+            "called": 1,
+            "success": 0
+        },
+        "GetBboxFromGeotiff": {
+            "called": 13,
+            "success": 1
+        },
+        "DisplayOnGeotiff": {
+            "called": 14,
+            "success": 0
+        },
+        "Terminate": {
+            "called": 68,
+            "success": 0
+        }
+    }
+}

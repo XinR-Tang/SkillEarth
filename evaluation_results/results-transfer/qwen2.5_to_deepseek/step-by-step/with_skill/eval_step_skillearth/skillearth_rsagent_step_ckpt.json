@@ -1,0 +1,26 @@
+{
+    "task_name": "rsagent",
+    "model_name": "deepseek-v4-flash",
+    "metrics": {
+        "inst_acc": 99.983,
+        "tool_acc": 89.771,
+        "arg_acc1": 82.1544,
+        "arg_acc2": 43.24,
+        "answer_acc": 96.788,
+        "answer_acc_all_non_gen": 93.1963,
+        "count_non_gen_samples": 986,
+        "count_gold_non_gen_samples": 1024,
+        "count_gen_samples": 124
+    },
+    "error_breakdown": {
+        "no_valid_action": 1,
+        "action_is_not_valid_dict": 0,
+        "missing_name_key": 0,
+        "name_not_in_tools": 0,
+        "incorrect_tool_called": 602,
+        "missing_arguments_key": 0,
+        "required_argument_missing": 449,
+        "arguments_is_not_valid_dict": 0,
+        "argument_values_not_matching": 2294
+    }
+}

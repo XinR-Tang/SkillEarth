@@ -1,0 +1,26 @@
+{
+    "task_name": "rsagent",
+    "model_name": "doubao-seed-2.0-mini",
+    "metrics": {
+        "inst_acc": 99.8643,
+        "tool_acc": 89.754,
+        "arg_acc1": 86.497,
+        "arg_acc2": 39.4572,
+        "answer_acc": 96.1335,
+        "answer_acc_all_non_gen": 93.5049,
+        "count_non_gen_samples": 996,
+        "count_gold_non_gen_samples": 1024,
+        "count_gen_samples": 134
+    },
+    "error_breakdown": {
+        "no_valid_action": 8,
+        "action_is_not_valid_dict": 0,
+        "missing_name_key": 0,
+        "name_not_in_tools": 0,
+        "incorrect_tool_called": 596,
+        "missing_arguments_key": 0,
+        "required_argument_missing": 192,
+        "arguments_is_not_valid_dict": 0,
+        "argument_values_not_matching": 2773
+    }
+}

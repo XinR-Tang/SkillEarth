@@ -1,0 +1,26 @@
+{
+    "task_name": "rsagent",
+    "model_name": "deepseek-r1",
+    "metrics": {
+        "inst_acc": 44.3427,
+        "tool_acc": 28.3291,
+        "arg_acc1": 23.9864,
+        "arg_acc2": 7.447,
+        "answer_acc": 87.9167,
+        "answer_acc_all_non_gen": 4.1211,
+        "count_non_gen_samples": 48,
+        "count_gold_non_gen_samples": 1024,
+        "count_gen_samples": 2
+    },
+    "error_breakdown": {
+        "no_valid_action": 3281,
+        "action_is_not_valid_dict": 0,
+        "missing_name_key": 0,
+        "name_not_in_tools": 29,
+        "incorrect_tool_called": 944,
+        "missing_arguments_key": 0,
+        "required_argument_missing": 256,
+        "arguments_is_not_valid_dict": 0,
+        "argument_values_not_matching": 975
+    }
+}

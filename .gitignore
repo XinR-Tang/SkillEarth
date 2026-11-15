@@ -1,0 +1,10 @@
+# Never commit credentials.
+gee_key/*.json
+*.pem
+*.key
+.env
+.env.*
+
+# Python runtime artifacts.
+__pycache__/
+*.py[cod]

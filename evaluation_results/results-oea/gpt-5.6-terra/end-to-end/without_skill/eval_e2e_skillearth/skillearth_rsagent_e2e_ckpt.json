@@ -1,0 +1,154 @@
+{
+    "task_name": "rsagent",
+    "model_name": "gpt-5.6-terra",
+    "metrics": {
+        "perception_f1": 30.989755802746604,
+        "operation_f1": 46.39949949331891,
+        "logic_f1": 6.76318207405341,
+        "gis_f1": 92.62539905884141,
+        "total_tool_calls_gt": 5895,
+        "total_actions_parsed": 3865,
+        "total_tool_calls_pred": 3861,
+        "tool_call_error": 1103,
+        "answer_acc": 50.8242,
+        "answer_acc_w_gen": 35.8621,
+        "all_tools_called_any_order": 0.4516680923866553,
+        "all_tools_called_same_order": 0.4499572284003422,
+        "all_tools_called_unique": 0.4713430282292558,
+        "avg_steps_taken": 3.9991445680068436,
+        "total_gen_samples": 145
+    },
+    "error_breakdown": {
+        "ans_not_reached": 49,
+        "name_not_in_tools": 0,
+        "no_valid_action_taken": 0,
+        "no_action_found": 810,
+        "action_found_but_wrong_syntax": 0,
+        "answer_reached_without_tool_calls": 13,
+        "Multiple_tool_calls_in_single_step": 0
+    },
+    "total_gt_calls_per_tool": {
+        "Calculator": 570,
+        "OCR": 10,
+        "DrawBox": 71,
+        "AddText": 30,
+        "GoogleSearch": 34,
+        "Plot": 22,
+        "Solver": 191,
+        "TextToBbox": 366,
+        "ImageDescription": 21,
+        "RegionAttributeDescription": 361,
+        "CountGivenObject": 158,
+        "ChangeDetection": 98,
+        "SegmentObjectPixels": 34,
+        "ObjectDetection": 21,
+        "GetAreaBoundary": 676,
+        "AddPoisLayer": 1080,
+        "ComputeDistance": 497,
+        "DisplayOnMap": 36,
+        "AddIndexLayer": 246,
+        "ComputeIndexChange": 123,
+        "ShowIndexLayer": 29,
+        "GetBboxFromGeotiff": 31,
+        "DisplayOnGeotiff": 21,
+        "Terminate": 1169
+    },
+    "total_pred_calls_per_tool": {
+        "Calculator": {
+            "called": 45,
+            "success": 37
+        },
+        "OCR": {
+            "called": 11,
+            "success": 11
+        },
+        "DrawBox": {
+            "called": 40,
+            "success": 40
+        },
+        "AddText": {
+            "called": 16,
+            "success": 12
+        },
+        "GoogleSearch": {
+            "called": 59,
+            "success": 0
+        },
+        "Plot": {
+            "called": 0,
+            "success": 0
+        },
+        "Solver": {
+            "called": 0,
+            "success": 0
+        },
+        "TextToBbox": {
+            "called": 230,
+            "success": 211
+        },
+        "ImageDescription": {
+            "called": 282,
+            "success": 0
+        },
+        "RegionAttributeDescription": {
+            "called": 24,
+            "success": 0
+        },
+        "CountGivenObject": {
+            "called": 66,
+            "success": 0
+        },
+        "ChangeDetection": {
+            "called": 33,
+            "success": 31
+        },
+        "SegmentObjectPixels": {
+            "called": 84,
+            "success": 0
+        },
+        "ObjectDetection": {
+            "called": 150,
+            "success": 0
+        },
+        "GetAreaBoundary": {
+            "called": 711,
+            "success": 647
+        },
+        "AddPoisLayer": {
+            "called": 1180,
+            "success": 895
+        },
+        "ComputeDistance": {
+            "called": 423,
+            "success": 422
+        },
+        "DisplayOnMap": {
+            "called": 41,
+            "success": 35
+        },
+        "AddIndexLayer": {
+            "called": 252,
+            "success": 246
+        },
+        "ComputeIndexChange": {
+            "called": 126,
+            "success": 126
+        },
+        "ShowIndexLayer": {
+            "called": 43,
+            "success": 0
+        },
+        "GetBboxFromGeotiff": {
+            "called": 29,
+            "success": 29
+        },
+        "DisplayOnGeotiff": {
+            "called": 16,
+            "success": 16
+        },
+        "Terminate": {
+            "called": 1120,
+            "success": 0
+        }
+    }
+}

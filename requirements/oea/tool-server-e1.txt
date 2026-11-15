@@ -1,0 +1,16 @@
+# Core tool-server Python dependencies.
+# Install PyTorch and QGIS separately as described in readme.txt.
+python-box
+uvicorn
+fastapi
+func_timeout
+easyocr
+rasterio
+accelerate
+geopandas
+osmnx
+fiona
+contextily
+earthengine-api
+geemap
+transformers==4.57.3

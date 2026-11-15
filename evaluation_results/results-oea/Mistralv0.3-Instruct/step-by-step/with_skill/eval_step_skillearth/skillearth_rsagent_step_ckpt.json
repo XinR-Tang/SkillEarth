@@ -1,0 +1,26 @@
+{
+    "task_name": "rsagent",
+    "model_name": "Mistralv0.3-Instruct",
+    "metrics": {
+        "inst_acc": 63.1383,
+        "tool_acc": 54.3003,
+        "arg_acc1": 43.6641,
+        "arg_acc2": 20.6417,
+        "answer_acc": 70.7043,
+        "answer_acc_all_non_gen": 12.4971,
+        "count_non_gen_samples": 181,
+        "count_gold_non_gen_samples": 1024,
+        "count_gen_samples": 35
+    },
+    "error_breakdown": {
+        "no_valid_action": 2173,
+        "action_is_not_valid_dict": 0,
+        "missing_name_key": 0,
+        "name_not_in_tools": 80,
+        "incorrect_tool_called": 521,
+        "missing_arguments_key": 0,
+        "required_argument_missing": 627,
+        "arguments_is_not_valid_dict": 0,
+        "argument_values_not_matching": 1358
+    }
+}

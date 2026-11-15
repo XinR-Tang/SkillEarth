@@ -1,0 +1,38 @@
+{
+    "mcpServers": {
+        "Analysis": {
+            "transport": "http",
+            "url": "http://127.0.0.1:31000/mcp"
+        },
+        "Index": {
+            "transport": "http",
+            "url": "http://127.0.0.1:31001/mcp"
+        },
+        "Inversion": {
+            "transport": "http",
+            "url": "http://127.0.0.1:31002/mcp"
+        },
+        "Perception": {
+            "transport": "http",
+            "url": "http://127.0.0.1:31003/mcp"
+        },
+        "Statistics": {
+            "transport": "http",
+            "url": "http://127.0.0.1:31004/mcp"
+        }
+    },
+    "models": [
+        {
+            "config_name": "qwen3-4b",
+            "model_type": "openai_chat",
+            "model_name": "qwen3-4b-instruct-2507",
+            "api_key": "EMPTY",
+            "client_args": {
+                "base_url": "http://127.0.0.1:8001/v1"
+            },
+            "generate_args": {
+                "enable_thinking": false
+            }
+        }
+    ]
+}

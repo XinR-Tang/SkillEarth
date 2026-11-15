@@ -1,0 +1,14 @@
+{% set ns = namespace(system_message='') %}
+{% for message in messages %}
+{% set content = message['content'] | default('', true) %}
+{% if message['role'] == 'system' %}
+{% set ns.system_message = content %}
+{% elif message['role'] == 'user' %}
+{{ bos_token }}[INST] {% if ns.system_message %}{{ ns.system_message }}
+
+{% endif %}{{ content }} [/INST]
+{% set ns.system_message = '' %}
+{% elif message['role'] == 'assistant' %}
+{{ content }}{{ eos_token }}
+{% endif %}
+{% endfor %}

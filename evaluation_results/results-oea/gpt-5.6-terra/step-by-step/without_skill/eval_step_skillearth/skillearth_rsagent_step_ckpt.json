@@ -1,0 +1,26 @@
+{
+    "task_name": "rsagent",
+    "model_name": "gpt-5.6-terra",
+    "metrics": {
+        "inst_acc": 96.3528,
+        "tool_acc": 81.883,
+        "arg_acc1": 79.3384,
+        "arg_acc2": 37.9474,
+        "answer_acc": 96.8768,
+        "answer_acc_all_non_gen": 89.876,
+        "count_non_gen_samples": 950,
+        "count_gold_non_gen_samples": 1024,
+        "count_gen_samples": 116
+    },
+    "error_breakdown": {
+        "no_valid_action": 215,
+        "action_is_not_valid_dict": 0,
+        "missing_name_key": 0,
+        "name_not_in_tools": 0,
+        "incorrect_tool_called": 853,
+        "missing_arguments_key": 0,
+        "required_argument_missing": 150,
+        "arguments_is_not_valid_dict": 0,
+        "argument_values_not_matching": 2440
+    }
+}
