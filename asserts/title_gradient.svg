@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 170" role="img" aria-labelledby="title">
+  <title id="title">SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution</title>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0057D9"/>
+      <stop offset="52%" stop-color="#00A9E8"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#gradient)" font-family="Arial, Helvetica, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="720" y="68" font-size="53">SkillEarth: Teaching General-Purpose Agents to Act on</text>
+    <text x="720" y="138" font-size="53">Earth via Skill Evolution</text>
+  </g>
+</svg>

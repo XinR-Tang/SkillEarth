@@ -1,20 +1,15 @@
-384 /home/JJ_Group/tanghj2409/SkillEarth/SkillEarth/README.md
 <div align="center">
 
 <p>
   <img src="asserts/SkillEarth.png" alt="SkillEarth logo" width="420">
 </p>
 
-<h1>
-  <span style="background: linear-gradient(90deg, #0057D9, #00A9E8, #7C3AED); -webkit-background-clip: text; background-clip: text; color: transparent;">
-    SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution
-  </span>
-</h1>
+<p>
+  <img src="asserts/title_gradient.svg" alt="SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution" width="100%">
+</p>
 
 <p>
-  <span style="font-size: 1.05em; font-weight: 700; background: linear-gradient(90deg, #0057D9, #00A9E8, #7C3AED); -webkit-background-clip: text; background-clip: text; color: transparent;">
-    A Self-evolving skill framework for Tool-Driven Geospatial Intelligence
-  </span>
+  <img src="asserts/tagline_gradient.svg" alt="A Self-evolving skill framework for Tool-Driven Geospatial Intelligence" width="76%">
 </p>
 
 <p>
