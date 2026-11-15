@@ -63,7 +63,7 @@ Recently developed remote sensing (RS) agents execute real-world tasks with comp
 
 ## 📦 &nbsp; Released SkillBanks
 
-Download the released, backbone-specific SkillBanks for direct use or further development.
+Download our released SkillBanks for direct use or further development.
 
 <div align="center">
 <table align="center">
