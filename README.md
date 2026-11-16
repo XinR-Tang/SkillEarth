@@ -58,8 +58,8 @@ Recently developed remote sensing (RS) agents execute real-world tasks with comp
 
 - **2026-11-15** — The skill-extraction framework is coming soon. 🔥
 - **2026-11-15** — Inference and evaluation scripts are now available for reproducing our results. 🚀
-- **2026-11-14** — We release our SkillBanks: [`skillbank-oea`](https://huggingface.co/XinRan-Tang/skillbank-oea) and [`skillbank-eb`](https://huggingface.co/XinRan-Tang/skillbank-eb). 🎉
-- **2026-11-11** — Our paper,[SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution](https://arxiv.org/abs/2611.15481), is now available. 🎉
+- **2026-11-14** — We release our SkillBanks: [skillbank-oea](https://huggingface.co/XinRan-Tang/skillbank-oea) and [skillbank-eb](https://huggingface.co/XinRan-Tang/skillbank-eb). 🎉
+- **2026-11-11** — Our paper, [SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution](https://arxiv.org/abs/2611.15481), is now available. 🎉
 
 ## 📦 &nbsp; Released SkillBanks
 
