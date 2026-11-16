@@ -28,7 +28,7 @@
 </p>
 
 <p>
-  <a href="#"><img src="https://img.shields.io/badge/Homepage-SkillEarth-2ea44f" alt="Homepage"></a>
+  <a href="https://xinr-tang.github.io/SkillEarth-homepage/"><img src="https://img.shields.io/badge/Homepage-SkillEarth-2ea44f" alt="Homepage"></a>
   <a href="https://arxiv.org/abs/2611.15481"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B" alt="arXiv"></a>
   <a href="https://huggingface.co/XinRan-Tang/skillbank-oea"><img src="https://img.shields.io/badge/HuggingFace-skillbank--oea-F9D371" alt="OpenEarth-Bench SkillBank"></a>
   <a href="https://huggingface.co/XinRan-Tang/skillbank-eb"><img src="https://img.shields.io/badge/HuggingFace-skillbank--eb-F9D371" alt="Earth-Bench SkillBank"></a>
